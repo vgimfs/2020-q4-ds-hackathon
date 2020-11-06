@@ -1,0 +1,10 @@
+Column Name in the data,Explanation
+PORTFOLIO,The fund name
+SCID,"The NeoXam ID of the fund, each fund has and only has one SCID"
+SHARE_CLASS,"Individual class of a fund, for instance, a fund could have investor shares, admiral shares, etc."
+PROCESS_DATE,"The date that the transaction was processed to the Transfer Agent(TA), which is also the date that PM needs to act on"
+SOURCE,"Transfer Agent(TA) source system name, indicates whether the order is from RETAIL or INST"
+CHANNEL,Detailed source channel
+ESTIMATE,The estiamte of the cash flow
+ACTUAL_AMOUNT,The actual cash flow
+ESTIMATE_TO_ACTUAL,ACTUAL_AMOUNT-ESTIMATE
